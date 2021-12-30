@@ -8,4 +8,5 @@ echo Hello World from the alxs channel!
 mkdir $out
 mkdir $out/bin
 mv script.sh $out/bin/alxs
+chmod +x $out/bin/alxs
 #exit 1
