@@ -5,5 +5,7 @@ source $stdenv/setup
 echo '#!/bin/sh
 echo Hello World from the alxs channel!
 ' > script.sh
-mv script.sh $out
+mkdir $out
+mkdir $out/bin
+mv script.sh $out/bin/alxs
 #exit 1
