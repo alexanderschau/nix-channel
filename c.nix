@@ -1,6 +1,6 @@
 {pkgs ? import <nixpkgs> {}}:
 
 pkgs.stdenv.mkDerivation {
-  name = "alxs-hello";
+  name = "alxsHi";
   builder = ./builder.sh;
 }
