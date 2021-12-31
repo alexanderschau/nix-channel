@@ -7,6 +7,6 @@ echo Hello World from the alxs channel!
 ' > script.sh
 mkdir $out
 mkdir $out/bin
-mv script.sh $out/bin/alxs
-chmod +x $out/bin/alxs
+mv script.sh $out/bin/alxsHi
+chmod +x $out/bin/alxsHi
 #exit 1
